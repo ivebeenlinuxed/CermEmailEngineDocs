@@ -69,7 +69,7 @@ The magic tag looks like this
 
 The system has now used a magic tag to make a decision on whether your timer was set to 8 seconds!
 
-### An example with two different filters
+### An example with two different timer inputs
 
 Now add another timer, this time set it to a number other than 8, for example, 10. You now have two timers, one triggering a job every 8 seconds, the other every 10 seconds.
 
