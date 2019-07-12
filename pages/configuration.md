@@ -8,7 +8,11 @@ summary: Configuring the CERM Flows software
 
 {% include note.html content="You must restart the service for changes to take affect" %}
 
-## Factory Settings!
+## Setting up CERM Flows
+
+CERM Flows only requires the Global section of the ini file to be configured to run, however in order to begin sending emails, or using the API functionality blocks, you need to setup the relevant sections. We recommend you ALWAYS set the Global and Email settings.
+
+## Factory Settings
 
 The default INI file looks like this:
 
@@ -44,13 +48,33 @@ api_base=http://w2008-ont:43001
 
 {% include warning.html content="Make sure all the configured directories are available on the server before starting the service." %}
 
-BindAddress: This tells the HTML frontend where to find the backend server. Don't touch! If this doesn't stay the same it simply won't work!
-FlowDirectory: This tells the server where to find the flowcharts that the server should load and run. The system stores each flow as an XML file in this directory.
-SharedFolder: This tells the server where it is allowed to put temporary files and create directories that all the CERM clients can access. It is used for things like hotfolders, and CERM buttons.
-TemplatesFolder: To make emailing easy, we make a set of pre-defined HTML templates. These templates can be put into this folder so the software can easily find them
-UserName: When starting up some CERM applications (like import exe) a CERM login must be provided. Make sure a valid login so the flowchart system is able to login to your CERM installation
-Password: As above
-UserID: Depreciated. To be removed.
+#### BindAddress
+
+This tells the HTML frontend where to find the backend server. Don't touch! If this doesn't stay the same it simply won't work!
+
+#### FlowDirectory
+
+This tells the server where to find the flowcharts that the server should load and run. The system stores each flow as an XML file in this directory.
+
+#### SharedFolder
+
+This tells the server where it is allowed to put temporary files and create directories that all the CERM clients can access. It is used for things like hotfolders, and CERM buttons.
+
+#### TemplatesFolder
+
+To make emailing easy, we make a set of pre-defined HTML templates. These templates can be put into this folder so the software can easily find them
+
+#### UserName
+
+When starting up some CERM applications (like import exe) a CERM login must be provided. Make sure a valid login so the flowchart system is able to login to your CERM installation
+
+#### Password
+
+As above
+
+#### UserID
+
+Depreciated. To be removed.
 
 ### Email
 
