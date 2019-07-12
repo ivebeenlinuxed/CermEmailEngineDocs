@@ -39,31 +39,35 @@ entries:
   - title: Getting Started
     output: web, pdf
     folderitems:
-      - title: Accessing CERM Flows
+      - title: 1. Accessing CERM Flows
         url: /accessing.html
         output: web, pdf
   
-      - title: Using the editor
+      - title: 2. Using the editor
         url: /using_editor.html
         output: web, pdf
         
-      - title: Using the Flow Gallery
+      - title: 3. Using the Flow Gallery
         url: /gallery.html
         output: web, pdf
         
-      - title: Building your first flow
+      - title: 4. Building your first flow
         url: /first_flow.html
         output: web, pdf
         
-      - title: Debugging Errors
+      - title: 5. Debugging Errors
         url: /debugging.html
         output: web, pdf
         
-      - title: Using Datasets
+      - title: 6. Using Datasets
         url: /using_datasets.html
         output: web, pdf
         
-      - title: Measuring Performance
+      - title: 7. Using Magic Tags
+        url: /using_datasets.html
+        output: web, pdf
+        
+      - title: 8. Measuring Performance
         url: /performance.html
         output: web, pdf
 
