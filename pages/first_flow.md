@@ -1,5 +1,5 @@
 ---
-title: "Accessing CERM Flows"
+title: "Building your first flow"
 keywords: tutorial
 tags: [tutorial, flow, start, email]
 permalink: first_flow.html
