@@ -40,7 +40,7 @@ entries:
       url: /getting_started.html
       output: web, pdf
 
-  - title: [Tutorial] Your First Flow
+  - title: \[Tutorial\] Your First Flow
     output: web, pdf
     folderitems:
 
