@@ -28,6 +28,12 @@ In this tutorial we are going to add our first flow. When we click a button in t
   - Email Status Dataset: [Leave Blank]
 5. Click Publish to Save
 
+## Setting the flow properties
+
+1. Click on the canvas background
+2. In the properties panel set the name of the flow
+3. Set if the flow should automatically run when the service starts
+
 ## Running the flow
 1. Select the Test Button node
 2. Click "Trigger"
