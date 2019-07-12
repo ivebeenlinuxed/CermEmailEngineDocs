@@ -42,6 +42,10 @@ entries:
       - title: Accessing CERM Flows
         url: /accessing.html
         output: web, pdf
+  
+      - title: Using the editor
+        url: /using_editor.html
+        output: web, pdf
         
       - title: Using the Flow Gallery
         url: /gallery.html
