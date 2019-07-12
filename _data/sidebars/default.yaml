@@ -1,0 +1,69 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Cerm Email Engine
+  version: 0.5
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: About the Project
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Getting Started
+      url: /getting_started.html
+      output: web, pdf
+
+    - title: Installation
+      url: /getting_started.html
+      output: web, pdf
+
+    - title: Configuration
+      url: /getting_started.html
+      output: web, pdf
+
+  - title: [Tutorial] Your First Flow
+    output: web, pdf
+    folderitems:
+
+    - title: Scenario
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: Building the Flow
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+  - title: Modules
+    output: web, pdf
+    folderitems:
+
+    - title: Timers
+      url: /mydoc_about_ruby_gems_etc.html
+      output: web, pdf
+
+    - title: Flow Infrastructure
+      url: /mydoc_install_jekyll_on_mac.html
+      output: web, pdf
+
+    - title: Email
+      url: /mydoc_install_jekyll_on_windows.html
+      output: web, pdf
