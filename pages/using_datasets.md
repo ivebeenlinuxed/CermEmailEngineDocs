@@ -2,7 +2,7 @@
 title: "Using Datasets"
 keywords: data
 tags: [data, dataset, job, inspect]
-permalink: using_data.html
+permalink: using_datasets.html
 summary: Make dataset by collecting data from your inputs in order to make decisions and take action.
 ---
 
