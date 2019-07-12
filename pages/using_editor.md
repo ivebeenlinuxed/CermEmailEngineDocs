@@ -46,7 +46,7 @@ Notes:
 To see the current properties of the Simple Email node:
 
 1. Select it
-2. Scroll down the left panel, to find the properties panel
+2. Scroll down the left panel, to find the properties panel (your properties will be blank)
 
 {% include image.html file="using_editor_properties.png" alt="Two nodes on a canvas" caption="You can fill in information here" %}
 
