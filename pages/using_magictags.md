@@ -60,7 +60,8 @@ The magic tag looks like this
 <%data("timer_dataset", "/Timer/ReleaseInterval")%>
 ```
 
-3. Publish and start the flow
+3. Add two breakpoint nodes, as shown in the screenshot
+4. Publish and start the flow
 
 ### Results
 
