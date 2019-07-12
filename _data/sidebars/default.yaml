@@ -59,6 +59,10 @@ entries:
         url: /debugging.html
         output: web, pdf
         
+      - title: Using Datasets
+        url: /using_datasets.html
+        output: web, pdf
+        
       - title: Measuring Performance
         url: /performance.html
         output: web, pdf
