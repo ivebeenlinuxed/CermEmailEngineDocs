@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: Installation
     output: web, pdf
     folderitems:
 
@@ -28,29 +28,35 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Getting Started
-      url: /getting_started.html
-      output: web, pdf
-
     - title: Installation
-      url: /getting_started.html
+      url: /installation.html
       output: web, pdf
 
     - title: Configuration
-      url: /getting_started.html
+      url: /configuration.html
       output: web, pdf
-
-  - title: \[Tutorial\] Your First Flow
+  - title: Getting Started
     output: web, pdf
     folderitems:
-
-    - title: Scenario
-      url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: Building the Flow
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
+      - title: Accessing CERM Flows
+        url: /accessing.html
+        output: web, pdf
+        
+      - title: Using the Flow Gallery
+        url: /gallery.html
+        output: web, pdf
+        
+      - title: Building your first flow
+        url: /first_flow.html
+        output: web, pdf
+        
+      - title: Debugging Errors
+        url: /debugging.html
+        output: web, pdf
+        
+      - title: Measuring Performance
+        url: /performance.html
+        output: web, pdf
 
   - title: Modules
     output: web, pdf
