@@ -64,7 +64,7 @@ entries:
         output: web, pdf
         
       - title: 7. Using Magic Tags
-        url: /using_datasets.html
+        url: /using_magictags.html
         output: web, pdf
         
       - title: 8. Measuring Performance
