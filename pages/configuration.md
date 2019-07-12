@@ -6,7 +6,7 @@ permalink: configuration.html
 summary: Configuring the CERM Flows software
 ---
 
-{% include info.html content="You must restart the service for changes to take affect" %}
+{% include note.html content="You must restart the service for changes to take affect" %}
 
 ## Factory Settings!
 
