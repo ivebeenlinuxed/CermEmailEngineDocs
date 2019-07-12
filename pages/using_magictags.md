@@ -2,7 +2,7 @@
 title: "Using a Magic Tag"
 keywords: magic tag
 tags: [magic, tag, variable]
-permalink: using_magictag.html
+permalink: using_magictags.html
 summary: Use the data you have collected to make decisions and fill out information in forms automatically.
 ---
 
