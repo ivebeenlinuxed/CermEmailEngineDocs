@@ -65,5 +65,6 @@ To inspect data click the "Inspect" button
 1. On the left hand side, you can see a list of datasets which have currently been collected by the flow
 2. Click on a dataset on the left to view its contents on the right
 3. Use this box to check "magic tags". Insert your magic tag, and click "Execute" to make sure the right data will pull through
+4. This box shows you the output of your magic tag
 
 {% include note.html content="The most common reason for a flow to fail is that the magic tag is looking for a bit of data which is wrong or it can't find. Paste your magic tags into the textbox to double check your result is what you expect!" %}
