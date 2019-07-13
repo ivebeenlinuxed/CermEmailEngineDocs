@@ -19,6 +19,8 @@ To install:
 
 1. Copy the MSI to the engine and install
 2. Copy the file C:\ProgramData\Cerm\Flows.ini to \\\\CERM-DATA\\sqlb00\\cfg\\ and follow the steps in the "Configuration" step
+3. Change the service to run as CermSys user on the engine (so that it can access network shares)
+4. Restart the service
 
 ## Upgrading
 
