@@ -42,8 +42,16 @@ SET ANSI_NULLS ON
 
 On a CERM-ENGINE, a registry key HKEY_LOCAL_MACHINE\\SOFTWARE\\wow6432node\\Cerm\\Parameters\\ConfigLocation is used to determine the location of the "Flows.ini" file. This is to ensure that a backup is created as part of the CERM Backup process.
 
-If this registry key is not available the configuration file is loaded from C:\\ProgramData\\Cerm\\Flows.ini
+This normally means you will find the config file here:
+```
+\\CERM-DATA\sqlb00\cfg\Flows.ini
+```
 
+If this registry key is not available the configuration file is loaded from:
+
+```
+C:\\ProgramData\\Cerm\\Flows.ini
+```
 
 ## Factory Settings
 

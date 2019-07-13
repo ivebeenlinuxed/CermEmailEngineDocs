@@ -18,7 +18,7 @@ The CERM flows tool is packaged as an MSI file. To obtain the MSI file speak to 
 To install:
 
 1. Copy the MSI to the engine and install
-2. Copy the file C:\ProgramData\Cerm\Flows.ini to \\CERM-DATA\sqlb00\cfg\ and follow the steps in the "Configuration" step
+2. Copy the file C:\ProgramData\Cerm\Flows.ini to \\\\CERM-DATA\\sqlb00\\cfg\\ and follow the steps in the "Configuration" step
 
 ## Upgrading
 
