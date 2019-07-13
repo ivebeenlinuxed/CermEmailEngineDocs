@@ -10,16 +10,19 @@ The following example is for a "please approve your product now to prevent resch
 
 
 TODO
-## 1. [Custom Button]
 
-## 2. [Filter] Make sure a row is selected
+## Logical Steps
 
-## 3. [Get the email] Query
+### 1. [Custom Button]
 
-## 4. [Filter] Check for an email address
+### 2. [Filter] Make sure a row is selected
 
-## 5. [Embedded Resource] Make an email text
+### 3. [Get the email] Query
 
-## 6. [Markdown] Convert to HTML
+### 4. [Filter] Check for an email address
 
-## 7. [Simple Email] Send the email
+### 5. [Embedded Resource] Make an email text
+
+### 6. [Markdown] Convert to HTML
+
+### 7. [Simple Email] Send the email

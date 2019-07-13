@@ -12,6 +12,32 @@ summary: Configuring the CERM Flows software
 
 CERM Flows only requires the Global section of the ini file to be configured to run, however in order to begin sending emails, or using the API functionality blocks, you need to setup the relevant sections. We recommend you ALWAYS set the Global and Email settings.
 
+## Add the log table to the CERM database
+
+This table is required, as it will be the main logging point for the software. In future versions this may be added automatically.
+
+```SQL
+SET ANSI_NULLS ON
+  SET QUOTED_IDENTIFIER ON
+  CREATE TABLE flow_log (
+	  [Id] [int] IDENTITY(1,1) NOT NULL,
+	  [MachineName] [nvarchar](50) NOT NULL,
+	  [Logged] [datetime] NOT NULL,
+	  [Level] [nvarchar](50) NOT NULL,
+	  [Message] [nvarchar](max) NOT NULL,
+	  [ClassName] [nvarchar](max) NULL,
+	  [Method] [nvarchar](max) NULL,
+      [LogType] [nvarchar](50) NOT NULL,
+	  [FlowId] [nvarchar](36),
+	  [FlowNodeId] [nvarchar](36),
+	  [Exception] [nvarchar](max) NULL,
+    CONSTRAINT [PK_FlowLog] PRIMARY KEY CLUSTERED ([Id] ASC)
+      WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+  ) ON [PRIMARY]
+```
+
+
+
 ## Factory Settings
 
 The default INI file looks like this:

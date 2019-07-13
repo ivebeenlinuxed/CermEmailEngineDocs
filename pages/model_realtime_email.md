@@ -9,14 +9,15 @@ summary: A quick guide to instant notifications
 
 The following example is for an email which alerts the user when a new RFQ is added to the system to be calculated. This could however be used to notify an account manager that a proforma invoice has now been paid or similar.
 
+## Logical Steps
 
-## 1. [SQL Trigger] Create a Trigger
+### 1. [SQL Trigger] Create a Trigger
 
 Add a trigger so that the flow is launched as soon as something happens on a particular database table
 
 *In this example we are creating an "INSERT" trigger on "Estimates". We will call this dataset "estimate_insert"*
 
-## 2. [Filter] Filter out data
+### 2. [Filter] Filter out data
 
 Most of the time the trigger will pick out too much data. The next thing to do is to filter out those rows which are not required.
 
@@ -34,7 +35,7 @@ Most of the time the trigger will pick out too much data. The next thing to do i
 0500
 ```
 
-## 3. [SQL Query] Get the email address that we are going to send the notification to
+### 3. [SQL Query] Get the email address that we are going to send the notification to
 
 We must now get the email address from the database, so we can send a notification. We can do this with a simple select statement, looking up the email based on the reference ID of the row that was changed or added in the database.
 
@@ -45,7 +46,7 @@ SELECT verte___.email___ FROM v1bon___ LEFT JOIN verte___ ON verte___.vrt__ref=v
 ```
 
 
-## 4. [Filter] Filter out where the email address is blank
+### 4. [Filter] Filter out where the email address is blank
 
 There are likely to be some times when the email address of the person you wish to send the notification out to is blank. In that case it is important to filter these out.
 
@@ -61,7 +62,7 @@ There are likely to be some times when the email address of the person you wish 
 [Leave this Blank]
 ```
 
-## 5. [Embedded Resource] Make a markdown email text
+### 5. [Embedded Resource] Make a markdown email text
 
 Use the embedded resource to make an email text to send.
 
@@ -74,7 +75,7 @@ New RFQ
 A new RFQ (ID: <%data("estimate_insert", "/SqlTrigger/Insert/inserted/@bon__ref")%>) is awaiting calculation
 ```
 
-## 6. [Markdown] Make your HTML email text
+### 6. [Markdown] Make your HTML email text
 
 To turn your text into HTML, use the markdown block.
 
@@ -86,7 +87,7 @@ In the "input" use the following expression:
 
 Call the dataset "email_html"
 
-## 7. [Simple Email] Create and send the email
+### 7. [Simple Email] Create and send the email
 
 Template: Unbranded.html
 Email Recipient
