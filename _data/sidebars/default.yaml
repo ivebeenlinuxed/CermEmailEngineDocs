@@ -75,6 +75,26 @@ entries:
         url: /tips.html
         output: web, pdf
 
+  - title: Standard Flow Models
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /model_introduction.html
+      output: web, pdf
+
+    - title: Scheduled Emails
+      url: /model_schedule_email.html
+      output: web, pdf
+
+    - title: Real-Time Emails
+      url: /model_realtime_email.html
+      output: web, pdf
+
+    - title: Button Emails
+      url: /model_button_email.html
+      output: web, pdf
+
   - title: Module Reference Guide
     output: web, pdf
     folderitems:
