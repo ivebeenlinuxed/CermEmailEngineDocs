@@ -70,6 +70,10 @@ entries:
       - title: 8. Measuring Performance
         url: /performance.html
         output: web, pdf
+        
+      - title: 9. Tips and Tricks
+        url: /tips.html
+        output: web, pdf
 
   - title: Module Reference Guide
     output: web, pdf
@@ -86,6 +90,7 @@ entries:
     - title: Email
       url: /module_emails.html
       output: web, pdf
+      
   - title: Magic Tag Reference Guide
     output: web, pdf
     folderitems:
