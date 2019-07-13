@@ -33,7 +33,24 @@ Even if you are a coder, the next person may not be! Use the Markdown node so no
 
 {% include image.html file="tip_nocode.png" alt="Markdown Node" caption="The markdown node can generate HTML from simple annotations" %}
 
-## 5. If it really isn't working, consider side-loading breakpoints
+## 5. Consider using SQL if the magic function you want isn't available
+
+SQL has a range of functions which can help you do things, like format dates. Sometimes it is worth doing these in your SQL query *before* returning the result!
+
+Try something like this to format dates
+
+```SQL
+select FORMAT(CAST('2018-01-01 01:00' AS datetime), 'hh:mm tt');
+```
+
+```SQL
+select FORMAT(CAST('<%data("dataset", "/XNode/DateTime")%>' AS datetime), 'hh:mm tt');
+```
+
+*returns 03:46 PM*
+
+
+## 6. If it really isn't working, consider side-loading breakpoints
 
 Sometimes you want to inspect data, without stopping it. Try putting breakpoint nodes by the side of your flow, so you can collect data without stopping it. You can still release them, and when you do it still will not affect your flow.
 
