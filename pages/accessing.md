@@ -49,7 +49,7 @@ The CERM Flows editor can be accessed by clicking the "Add Flow" or "Open" butto
 
 4. This button stops or starts your flow. If the button says "Start Flow", it is currently stopped. If it says "Stop Flow" it is currently running.
 
-5. This is a *Module*. A module group contains a set of features which are related. It may be possible to add more "module packs" to the CERM flows software, which will provide extra module groups.
+5. This is a *Module*. A module contains a set of flow nodes which are related. It may be possible to add more "module packs" to the CERM flows software, which will provide extra module groups.
 
 6. This is a *Flow Node*. A flow node can be added to your canvas by clicking on it
 

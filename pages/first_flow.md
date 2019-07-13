@@ -33,6 +33,7 @@ In this tutorial we are going to add our first flow. When we click a button in t
 1. Click on the canvas background
 2. In the properties panel set the name of the flow
 3. Set if the flow should automatically run when the service starts
+4. Click Publish to Save
 
 ## Running the flow
 1. Select the Test Button node

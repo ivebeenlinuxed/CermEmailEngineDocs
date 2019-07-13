@@ -17,9 +17,9 @@ TODO
 
 ### 2. [Filter] Make sure a row is selected
 
-### 3. [Get the email] Query
+### 3. [SQL Query] Get the email address 
 
-### 4. [Filter] Check for an email address
+### 4. [Filter] Filter blank emails
 
 ### 5. [Embedded Resource] Make an email text
 
