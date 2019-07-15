@@ -10,8 +10,8 @@ summary: Access the CERM Flows software
 
 CERM Flows is a component for the CERM Engine, and runs on IIS Web Services. To access, open a web browser.
 
-- From a CERM Engine RDP session: [http://localhost/flows]
-- From a Client: [http://cerm-engine/flows]
+- From a CERM Engine RDP session: http://localhost/flows
+- From a Client: http://cerm-engine/flows
 
 ## Understanding the interface
 
