@@ -39,7 +39,7 @@ Most emails need a table of data in them. The easiest way to do this is to creat
 Call the dataset "email_table"
 
 ```SQL
-SELECT kla__rpn AS CustomerKeyword, omschr__ AS EstimateDescription, leverdat AS DesiredDate FROM v1bon___ WHERE vrt__ref='<#dataset="contact" xpath="/NewDataSet/Table/vrt__ref">' AND tst__ref='0500'
+SELECT kla__rpn AS CustomerKeyword, omschr__ AS EstimateDescription, leverdat AS DesiredDate FROM v1bon___ WHERE vrt__ref='<%data("contact", "/NewDataSet/Table/vrt__ref")%>' AND tst__ref='0500'
  ```
 
  *The contact dataset is unique for each job (or representative). This query makes a table of all the estimates that representive needs to follow up on.*
