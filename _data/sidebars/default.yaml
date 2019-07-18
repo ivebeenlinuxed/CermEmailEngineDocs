@@ -116,13 +116,9 @@ entries:
     folderitems:
 
     - title: Data Functions
-      url: /magic_data.html
+      url: /ref_magic_data.html
       output: web, pdf
 
     - title: String Functions
-      url: /magic_string.html
-      output: web, pdf
-
-    - title: Date Functions
-      url: /magic_date.html
+      url: /ref_magic_string.html
       output: web, pdf
