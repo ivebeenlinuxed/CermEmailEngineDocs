@@ -15,10 +15,10 @@ The data function gets a bit of data from a dataset using XPath to find the spec
 
 This tag automatically makes a table in markdown. It finds every instance of the xpath in a document, and then makes a table from it.
 
-A typical XPath example is
+A typical example is
 
 ```
-/NewDataSet/Table
+<% markdowntable('sql_result', '/NewDataSet/Table') %>
 ```
 
-Because there are multiple rows output from a SQL query, the XPath will match each row (there are lots of table tags inside of the NewDataSet next to each other) and create a markdown table.
+Because there are multiple rows output from a SQL query, the XPath will match each row (there are lots of *Table* tags inside of the *NewDataSet* next to each other) and create a markdown table.
