@@ -1,9 +1,9 @@
 ---
-title: "Reference Manual: Magic Data"
+title: "Reference Manual: Magic String"
 keywords: reference
 tags: [reference, magic, data]
 permalink: ref_magic_string.html
-summary: Functions related to getting data from XML.
+summary: Magic functions related to manipulating strings.
 ---
 
 
